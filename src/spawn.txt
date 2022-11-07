@@ -1,0 +1,11 @@
+<SPAWN OPTIONS>
+
+cwd  <string> Current working directory of the child process
+env  <Object> Environment key-value pairs
+argv0  <string> Explicitly set the value of argv[0] sent to the child 
+      process
+stdio <Array> | <string> Child's stdio configuration. ('pipe':default,'ignore','inherit')
+detached <boolean> Prepare child to run independently of its parent process .
+uid <number> Sets the user identity of the process.
+gid <number> Sets the group identity of the process.
+shell <boolean> | <string> If true , runs command inside of a shell

@@ -1,0 +1,6 @@
+pruebas.js
+node_modules/
+dist/
+.prettierrc
+*.exe
+*.log
