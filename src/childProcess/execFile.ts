@@ -14,7 +14,7 @@ const child = cp.execFile('g++', ['-o','hello.exe','hello.cpp'], {cwd : './src/c
     if (error) {
         throw error
     } else {
-        const runner = cp.execFile('./hello.exe',['pepito del ocho'],{cwd : './src/childProcess'} , (error,out,err)=>{
+        const runner = cp.execFile('./hello.exe',['hola mundo execFile cpp'],{cwd : './src/childProcess'} , (error,out,err)=>{
             if (error) {
                 throw error
             } else {

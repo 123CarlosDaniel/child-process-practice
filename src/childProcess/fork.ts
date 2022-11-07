@@ -1,7 +1,7 @@
 import cp from 'child_process'
 
 // Child process with child_process.fork()
-const names = ['pepe','rata','del ocho']
+const names = ['hola','hello','hi']
 const child = cp.fork( 'hijo.ts', names, { cwd : './src/childProcess'})
 
 child.on('message', (data) =>{
@@ -11,7 +11,7 @@ child.on('error', ()=> {
     console.log('Error ocurred')
 })
 child.on('exit', ()=> {
-    console.log('Chill killed')
+    console.log('Child killed')
 })
 
 const interval = setInterval(()=> {

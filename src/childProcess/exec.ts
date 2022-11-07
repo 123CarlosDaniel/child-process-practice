@@ -19,7 +19,7 @@ const child = cp.exec(progs.remove + " -r css", (err,stdout, stderr)=> {
 })
 
 child.stdout?.on('data', (chunk)=> {
-  console.log('hola pepe')
+  console.log('hola mundoooo')
 })
 
 child.stderr?.on('data', (chunk)=> {
